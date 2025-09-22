@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4ca4074783403210aa136f80ceaad362" label="Refund Category" max_length="40" name="x_1270470_reimbu_0_refund_category" type="collection">
+        <element label="Category" max_length="100" name="category" type="string"/>
+        <element label="Assignment Group" max_length="250" name="assignment_group" type="string"/>
+    </element>
+</database>
