@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1270470_reimbu_0.GetRefundCategoryInfo</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetRefundCategoryInfo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetRefundCategoryInfo = Class.create();
+GetRefundCategoryInfo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    
+    getAssignmentGroup: function() {
+        var catId = this.getParameter('sysparm_category_sys_id'); // recebe sys_id da Category
+        var gr = new GlideRecord('x_1270470_reimbu_0_refund_category');
+		gr.get(catId); // <<-- sua tabela de referência
+        
+		return JSON.stringify( {
+			assignment_group_rs: gr.getValue("assignment_group")
+		});
+    },
+	type: 'GetRefundCategoryInfo'
+    
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 15:29:52</sys_created_on>
+        <sys_id>bc4410ef83887210aa136f80ceaad365</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>GetRefundCategoryInfo</sys_name>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_update_name>sys_script_include_bc4410ef83887210aa136f80ceaad365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 15:39:42</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>bc4410ef83887210aa136f80ceaad365</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 15:29:52</sys_created_on>
+        <sys_id>d694d0ef83887210aa136f80ceaad351</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 15:29:52</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</application>
+        <file_path/>
+        <instance_id>0ed89432dbc6421002022a5913961998</instance_id>
+        <instance_name>dev268392</instance_name>
+        <name>sys_script_include_bc4410ef83887210aa136f80ceaad365</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1270470_reimbu_0.GetRefundCategoryInfo&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;GetRefundCategoryInfo&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var GetRefundCategoryInfo = Class.create();
+GetRefundCategoryInfo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    
+    getAssignmentGroup: function() {
+        var catId = this.getParameter('sysparm_category_sys_id'); // recebe sys_id da Category
+        var gr = new GlideRecord('x_1270470_reimbu_0_refund_category');
+		gr.get(catId); // &lt;&lt;-- sua tabela de referência
+        
+		return JSON.stringify( {
+			assignment_group_rs: gr.getValue("assignment_group")
+		});
+    },
+	type: 'GetRefundCategoryInfo'
+    
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-23 15:29:52&lt;/sys_created_on&gt;&lt;sys_id&gt;bc4410ef83887210aa136f80ceaad365&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;GetRefundCategoryInfo&lt;/sys_name&gt;&lt;sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0"&gt;3c110b0383403210aa136f80ceaad331&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Reimbursement System"&gt;3c110b0383403210aa136f80ceaad331&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_bc4410ef83887210aa136f80ceaad365&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-23 15:39:42&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;bc4410ef83887210aa136f80ceaad365&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-23 15:29:52&lt;/sys_created_on&gt;&lt;sys_id&gt;d694d0ef83887210aa136f80ceaad351&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-23 15:29:52&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1775680063</payload_hash>
+        <record_name>GetRefundCategoryInfo</record_name>
+        <reverted_from/>
+        <source>82ce5f0783c03210aa136f80ceaad3c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 15:39:42</sys_created_on>
+        <sys_id>eed6542383c87210aa136f80ceaad3a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199773b0d720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 15:39:42</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>66d654233ac872103a4f6595bfd291a7</update_guid>
+        <update_guid_history>66d654233ac872103a4f6595bfd291a7:-1775680063,10d65823f0c87210bce9e8b7f443f0d6:-1009479356,7545186f1a8872106d1682ae735fe06d:-444752865,06b410ef9b887210626923ebc7807879:-250847102,a694506fa2887210803e3310ecb7f616:-1641569656</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 15:40:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>153ce8fcacb848c7827090ab4ba52749</sys_id>
+        <sys_metadata>bc4410ef83887210aa136f80ceaad365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetRefundCategoryInfo</sys_name>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_scope_delete display_value="">6294d88c0b654827aaad37cbe4a6d479</sys_scope_delete>
+        <sys_update_name>sys_script_include_bc4410ef83887210aa136f80ceaad365</sys_update_name>
+        <sys_update_version display_value="sys_script_include_bc4410ef83887210aa136f80ceaad365">eed6542383c87210aa136f80ceaad3a7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 15:40:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Assignment Group</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    // Chama o Script Include para buscar assignment_group
+    var ga = new GlideAjax('GetRefundCategoryInfo');
+    ga.addParam('sysparm_name', 'getAssignmentGroup');
+    ga.addParam('sysparm_category', newValue); // sys_id da categoria escolhida
+    ga.getXMLAnswer(function(response){
+        g_form.setValue('assignment_group', response); // popula a variável Assignment Group
+    });
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 15:21:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3cc150eb83887210aa136f80ceaad330</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Assignment Group</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_update_name>sys_script_client_3cc150eb83887210aa136f80ceaad330</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 15:22:51</sys_updated_on>
+        <table>x_1270470_reimbu_0_refund_flow</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</application>
+        <file_path/>
+        <instance_id>0ed89432dbc6421002022a5913961998</instance_id>
+        <instance_name>dev268392</instance_name>
+        <name>sys_script_client_3cc150eb83887210aa136f80ceaad330</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Assignment Group&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+
+    // Chama o Script Include para buscar assignment_group
+    var ga = new GlideAjax('GetRefundCategoryInfo');
+    ga.addParam('sysparm_name', 'getAssignmentGroup');
+    ga.addParam('sysparm_category', newValue); // sys_id da categoria escolhida
+    ga.getXMLAnswer(function(response){
+        g_form.setValue('assignment_group', response); // popula a variável Assignment Group
+    });
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-23 15:21:16&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3cc150eb83887210aa136f80ceaad330&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Assignment Group&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0"&gt;3c110b0383403210aa136f80ceaad331&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Reimbursement System"&gt;3c110b0383403210aa136f80ceaad331&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3cc150eb83887210aa136f80ceaad330&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-23 15:22:51&lt;/sys_updated_on&gt;&lt;table&gt;x_1270470_reimbu_0_refund_flow&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-479603575</payload_hash>
+        <record_name>Assignment Group</record_name>
+        <reverted_from/>
+        <source>82ce5f0783c03210aa136f80ceaad3c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 15:22:51</sys_created_on>
+        <sys_id>e3f2186f83887210aa136f80ceaad31e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199772b9d7c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 15:22:51</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>e7f2186f81887210900389c98f9e791d</update_guid>
+        <update_guid_history>e7f2186f81887210900389c98f9e791d:-479603575,18a29ceb48887210e7532ad8cbfc0727:819673817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 15:47:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>2262fad6504946fba5ce7cf03577ad89</sys_id>
+        <sys_metadata>3cc150eb83887210aa136f80ceaad330</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Group</sys_name>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_parent display_value="Refund Flow">f172c38383403210aa136f80ceaad361</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_scope_delete display_value="">6294d88c0b654827aaad37cbe4a6d479</sys_scope_delete>
+        <sys_update_name>sys_script_client_3cc150eb83887210aa136f80ceaad330</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3cc150eb83887210aa136f80ceaad330">e3f2186f83887210aa136f80ceaad31e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 15:47:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

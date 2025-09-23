@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Request a Reimbursement">4b8b2f0783043210aa136f80ceaad332</catalog_item>
+        <catalog_variable>IO:f5ac635b83c47210aa136f80ceaad373</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:40:32</sys_created_on>
+        <sys_id>34cd2b9b83c47210aa136f80ceaad3ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_34cd2b9b83c47210aa136f80ceaad3ab</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-23 14:24:31</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Assignmente Group Visible and Read Only">558de39b83c47210aa136f80ceaad371</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>assignment_group</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=34cd2b9b83c47210aa136f80ceaad3ab"/>
+</record_update>
