@@ -2,7 +2,7 @@
     <sys_security_acl action="INSERT_OR_UPDATE">
         <active>true</active>
         <admin_overrides>true</admin_overrides>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
@@ -10,20 +10,35 @@
         <local_or_existing>Local</local_or_existing>
         <name>x_1270470_reimbu_0_refund_flow</name>
         <operation display_value="write">write</operation>
-        <script/>
+        <script><![CDATA[answer = false;
+
+if(gs.hasRole("x_1270470_reimbu_0.manager")) {
+	answer = true;
+}]]></script>
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-22 14:58:25</sys_created_on>
-        <sys_id>c0d3c30783403210aa136f80ceaad317</sys_id>
+        <sys_created_on>2025-09-24 21:10:07</sys_created_on>
+        <sys_id>519be63383883210aa136f80ceaad31a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_1270470_reimbu_0_refund_flow</sys_name>
         <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
-        <sys_update_name>sys_security_acl_c0d3c30783403210aa136f80ceaad317</sys_update_name>
+        <sys_update_name>sys_security_acl_519be63383883210aa136f80ceaad31a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-22 14:58:25</sys_updated_on>
+        <sys_updated_on>2025-09-24 21:10:07</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>519be63383883210aa136f80ceaad31a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-24 21:10:05</sys_created_on>
+        <sys_id>f30ce63383883210aa136f80ceaad33d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-24 21:10:05</sys_updated_on>
+        <table>sys_security_acl</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>
