@@ -37,41 +37,40 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Hello, ${sys_updated_by}.</p>
-<p>Your request number ${number} has been <strong>COMPLETED!</strong></p>
-<p>The amount of <strong>${amount}</strong> has been deposited into your account.&nbsp;</p>
-<p>The status has now changed to <strong>COMPLETED.</strong></p>
+<p>Your request number ${number} has been <strong>APPROVED!</strong></p>
+<p>The status has now changed to <strong>AWAITING PAYMENT</strong>.</p>
 <p>Thank you!</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Completed</name>
+        <name>New Member</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by</recipient_fields>
+        <recipient_fields/>
         <recipient_groups/>
-        <recipient_users/>
+        <recipient_users>6816f79cc0a8016401c5a33be04be441,a169bcff83003210aa136f80ceaad338</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Reimbursement Completed</subject>
+        <subject>Reimbursement Approved</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-23 16:10:21</sys_created_on>
+        <sys_created_on>2025-09-24 18:19:54</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>dd4dd4ab83c87210aa136f80ceaad319</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Completed</sys_name>
+        <sys_id>36150a7f83843210aa136f80ceaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Member</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
-        <sys_update_name>sysevent_email_action_dd4dd4ab83c87210aa136f80ceaad319</sys_update_name>
+        <sys_update_name>sysevent_email_action_36150a7f83843210aa136f80ceaad3b6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-24 13:45:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 18:19:54</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

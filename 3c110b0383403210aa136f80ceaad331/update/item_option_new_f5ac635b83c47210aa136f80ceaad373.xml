@@ -22,7 +22,7 @@
         <dynamic_value_field display_value="Category">f3eea34b83043210aa136f80ceaad39a</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field>assignment_group</field>
+        <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
@@ -39,7 +39,7 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>true</map_to_field>
+        <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>assignment_group</name>
@@ -81,14 +81,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-23 12:37:30</sys_created_on>
         <sys_id>f5ac635b83c47210aa136f80ceaad373</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Assignmente Group</sys_name>
         <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
         <sys_update_name>item_option_new_f5ac635b83c47210aa136f80ceaad373</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-23 15:07:28</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:26:42</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>

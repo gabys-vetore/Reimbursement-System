@@ -37,14 +37,13 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Hello, ${sys_updated_by}.</p>
-<p>Your request number ${number} has been <strong>COMPLETED!</strong></p>
-<p>The amount of <strong>${amount}</strong> has been deposited into your account.&nbsp;</p>
-<p>The status has now changed to <strong>COMPLETED.</strong></p>
+<p>Your request number ${number} has been <strong>APPROVED!</strong></p>
+<p>The status has now changed to <strong>AWAITING PAYMENT</strong>.</p>
 <p>Thank you!</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Completed</name>
+        <name>Approved</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -55,23 +54,23 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Reimbursement Completed</subject>
+        <subject>Reimbursement Approved</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-23 16:10:21</sys_created_on>
+        <sys_created_on>2025-09-24 13:44:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>dd4dd4ab83c87210aa136f80ceaad319</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Completed</sys_name>
+        <sys_id>bff58d7383803210aa136f80ceaad3fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
-        <sys_update_name>sysevent_email_action_dd4dd4ab83c87210aa136f80ceaad319</sys_update_name>
+        <sys_update_name>sysevent_email_action_bff58d7383803210aa136f80ceaad3fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-24 13:45:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 13:44:21</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

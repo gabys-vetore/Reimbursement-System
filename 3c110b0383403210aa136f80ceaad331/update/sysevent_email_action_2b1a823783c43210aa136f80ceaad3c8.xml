@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
-        <collection>x_1270470_reimbu_0_refund_flow</collection>
+        <collection>sys_user_grmember</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -36,42 +36,41 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Hello, ${sys_updated_by}.</p>
-<p>Your request number ${number} has been <strong>COMPLETED!</strong></p>
-<p>The amount of <strong>${amount}</strong> has been deposited into your account.&nbsp;</p>
-<p>The status has now changed to <strong>COMPLETED.</strong></p>
+        <message_html><![CDATA[<p>Hello, <strong>${group.parent.manager}.</strong></p>
+<p>The user <strong>${user.name}</strong> has now joined the group <strong>${group.name}.</strong></p>
+<p>He/She is now assigned to the department <strong>${user.department}</strong>, with the title of <strong>${user.title}</strong>, and the manager <strong>${user.manager}.</strong></p>
 <p>Thank you!</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Completed</name>
+        <name>New Group Member</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>opened_by</recipient_fields>
+        <recipient_fields/>
         <recipient_groups/>
-        <recipient_users/>
+        <recipient_users>a169bcff83003210aa136f80ceaad338</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Reimbursement Completed</subject>
+        <subject>New Group Member</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-23 16:10:21</sys_created_on>
+        <sys_created_on>2025-09-24 18:41:48</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>dd4dd4ab83c87210aa136f80ceaad319</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Completed</sys_name>
+        <sys_id>2b1a823783c43210aa136f80ceaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Group Member</sys_name>
         <sys_overrides/>
         <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
         <sys_policy/>
         <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
-        <sys_update_name>sysevent_email_action_dd4dd4ab83c87210aa136f80ceaad319</sys_update_name>
+        <sys_update_name>sysevent_email_action_2b1a823783c43210aa136f80ceaad3c8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-24 13:45:41</sys_updated_on>
+        <sys_updated_on>2025-09-24 18:41:48</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
