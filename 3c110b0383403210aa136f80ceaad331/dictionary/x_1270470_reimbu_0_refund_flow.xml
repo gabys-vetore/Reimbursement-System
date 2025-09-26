@@ -2,8 +2,18 @@
     <element db_object_id="f172c38383403210aa136f80ceaad361" extends="task" label="Refund Flow" max_length="40" name="x_1270470_reimbu_0_refund_flow" type="collection">
         <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
         <element label="Receipt" max_length="40" name="receipt" type="user_image"/>
-        <element label="Amount" max_length="40" name="amount" type="float"/>
+        <element label="Amount BRL" max_length="20" name="amount_brl" type="string"/>
         <element label="Category" max_length="32" name="category" reference="x_1270470_reimbu_0_refund_category" reference_qual="categoryISNOTEMPTY^EQ" reference_qual_condition="categoryISNOTEMPTY^EQ" type="reference"/>
         <element label="Expense Date" max_length="40" name="expense_date" type="glide_date"/>
+        <element label="Amount USD" max_length="20" name="amount_usd" type="string"/>
+        <element label="Integration Error Message" max_length="100" name="integration_error_message" type="string"/>
+        <element choice="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Starting" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Integrating" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="3" value="4"/>
+            </choice>
+        </element>
     </element>
 </database>

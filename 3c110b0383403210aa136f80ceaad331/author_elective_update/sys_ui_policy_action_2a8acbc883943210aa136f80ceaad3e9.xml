@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>true</cleared>
+        <disabled>ignore</disabled>
+        <field>amount_usd</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 18:01:56</sys_created_on>
+        <sys_id>2a8acbc883943210aa136f80ceaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>amount_usd</sys_name>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_update_name>sys_ui_policy_action_2a8acbc883943210aa136f80ceaad3e9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 18:01:56</sys_updated_on>
+        <table>x_1270470_reimbu_0_refund_flow</table>
+        <ui_policy display_value="Amount USD clear">607a47c883943210aa136f80ceaad3e4</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=2a8acbc883943210aa136f80ceaad3e9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</application>
+        <file_path/>
+        <instance_id>0ed89432dbc6421002022a5913961998</instance_id>
+        <instance_name>dev268392</instance_name>
+        <name>sys_ui_policy_action_2a8acbc883943210aa136f80ceaad3e9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>true</cleared><disabled>ignore</disabled><field>amount_usd</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-25 18:01:56</sys_created_on><sys_id>2a8acbc883943210aa136f80ceaad3e9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>amount_usd</sys_name><sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package><sys_policy/><sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope><sys_update_name>sys_ui_policy_action_2a8acbc883943210aa136f80ceaad3e9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-25 18:01:56</sys_updated_on><table>x_1270470_reimbu_0_refund_flow</table><ui_policy display_value="Amount USD clear">607a47c883943210aa136f80ceaad3e4</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=2a8acbc883943210aa136f80ceaad3e9"/></record_update>]]></payload>
+        <payload_hash>-757170873</payload_hash>
+        <record_name>amount_usd</record_name>
+        <reverted_from/>
+        <source>82ce5f0783c03210aa136f80ceaad3c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 18:01:56</sys_created_on>
+        <sys_id>dd9a4bc883943210aa136f80ceaad3be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1998209fc6f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 18:01:56</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>d19a4bc84e943210b3add1438425fcbe</update_guid>
+        <update_guid_history>d19a4bc84e943210b3add1438425fcbe:-757170873</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 18:06:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>45e8af738d1e4340b59b27a7fb941000</sys_id>
+        <sys_metadata>2a8acbc883943210aa136f80ceaad3e9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>amount_usd</sys_name>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_scope_delete display_value="">6294d88c0b654827aaad37cbe4a6d479</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_2a8acbc883943210aa136f80ceaad3e9</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_2a8acbc883943210aa136f80ceaad3e9">dd9a4bc883943210aa136f80ceaad3be</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 18:06:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

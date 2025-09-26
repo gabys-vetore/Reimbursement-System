@@ -4,13 +4,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>5f9645ef838c7210aa136f80ceaad3d5</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>b6df970883183210aa136f80ceaad378</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">7274cdab838c7210aa136f80ceaad359</sys_ui_formatter>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>5b9645ef838c7210aa136f80ceaad3d6</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>f2df970883183210aa136f80ceaad379</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>539645ef838c7210aa136f80ceaad3d7</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>fadf970883183210aa136f80ceaad379</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,139 +46,153 @@
             <element>category</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>5b9645ef838c7210aa136f80ceaad3d7</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>f2df970883183210aa136f80ceaad37a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>receipt</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>539645ef838c7210aa136f80ceaad3d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>5b9645ef838c7210aa136f80ceaad3d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>539645ef838c7210aa136f80ceaad3d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_by</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>5b9645ef838c7210aa136f80ceaad3d9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>amount</element>
-            <position>8</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>539645ef838c7210aa136f80ceaad3da</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>expense_date</element>
-            <position>9</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>5b9645ef838c7210aa136f80ceaad3da</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>fadf970883183210aa136f80ceaad37a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>receipt</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>f2df970883183210aa136f80ceaad37b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>fadf970883183210aa136f80ceaad37b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>f2df970883183210aa136f80ceaad37c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>fadf970883183210aa136f80ceaad37c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_brl</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>f2df970883183210aa136f80ceaad37d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>amount_usd</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>fadf970883183210aa136f80ceaad37d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>539645ef838c7210aa136f80ceaad3db</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>f2df970883183210aa136f80ceaad37e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>5b9645ef838c7210aa136f80ceaad3db</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>fadf970883183210aa136f80ceaad37e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>reproval_reason</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-23 19:08:23</sys_created_on>
-            <sys_id>539645ef838c7210aa136f80ceaad3dc</sys_id>
+            <sys_created_on>2025-09-25 19:34:53</sys_created_on>
+            <sys_id>f2df970883183210aa136f80ceaad37f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Refund Flow" display_value="Refund Flow" name="x_1270470_reimbu_0_refund_flow" sys_domain="global" view="Default view">ec7681ef838c7210aa136f80ceaad30e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-23 19:08:23</sys_updated_on>
+            <sys_updated_on>2025-09-25 19:34:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

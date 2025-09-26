@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Reimbursement System">d0801bc083d43210aa136f80ceaad3ff</category>
+        <order>600</order>
+        <property display_value="x_1270470_reimbu_0.integration_retry_timeout" name="x_1270470_reimbu_0.integration_retry_timeout">3781db0483d43210aa136f80ceaad38f</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-25 18:32:36</sys_created_on>
+        <sys_id>6e919b0483d43210aa136f80ceaad3d0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1270470_reimbu_0.integration_retry_timeout.Reimbursement System</sys_name>
+        <sys_package display_value="Reimbursement System" source="x_1270470_reimbu_0">3c110b0383403210aa136f80ceaad331</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Reimbursement System">3c110b0383403210aa136f80ceaad331</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_6e919b0483d43210aa136f80ceaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-25 18:36:39</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>
